@@ -6,6 +6,7 @@ import Navbar from './navbar';
 import Popular from './popular';
 import Search from './search';
 import Upcoming from './upcoming';
+import Footer from './footer';
 
 class App extends Component {
   state = {  }
@@ -20,6 +21,7 @@ class App extends Component {
           <Route path='/upcoming' component={Upcoming}></Route>
           <Route path='/popular' component={Popular}></Route>
         </switch>
+        <Footer/>
       </React.Fragment>
      );
   }
