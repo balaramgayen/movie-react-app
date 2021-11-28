@@ -64,7 +64,7 @@ class Details extends Component {
                                 <img src={"https://image.tmdb.org/t/p/w500/"+ this.state.details.poster_path} class="card-img-top" alt="..."/>
                             </div>
                             <div className="col-9">
-                                <h1 class="display-4"><b>{this.state.details.title}({releaseDate})</b></ h1>
+                                <h1 class="display-4"><b>{this.state.details.title}({releaseDate})</b></h1>
                                 <h6>{this.rendergenre()}<b>*</b> {this.state.details.runtime}m</h6>
                                 <h3><b>{this.state.details.vote_average}/10</b></h3>
                                 <h6>{this.state.details.tagline}</h6>
